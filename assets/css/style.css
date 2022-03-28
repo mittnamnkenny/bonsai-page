@@ -20,6 +20,12 @@ body {
     color: aliceblue;
 }
 
+li, a {
+    list-style-type: none;
+    text-decoration: none;
+    color: aliceblue;
+}
+
 /* Page Wrapper */
 
 #page {
