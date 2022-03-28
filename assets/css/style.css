@@ -35,11 +35,19 @@ body {
     "nav about about about about"
     "nav photos photos photos photos"
     "nav footer footer footer footer";
+
+}
+
+#header, #nav, #hero, #about, #photos, #footer {
+    padding: 30px;
 }
 
 #header {
     grid-area: header;
-    background-color: aqua;
+    background-color: #061324;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #nav {
