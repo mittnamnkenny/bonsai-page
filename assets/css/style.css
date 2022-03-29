@@ -58,7 +58,7 @@ li, a {
 
 #nav {
     grid-area: nav;
-    background-color: bisque;
+    background-color: goldenrod;
 }
 
 #hero {
