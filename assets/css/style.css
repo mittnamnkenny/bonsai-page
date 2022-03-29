@@ -77,8 +77,12 @@ li, a {
     padding: 10px;
 }
 
-nav a:hover{
+#nav a:hover{
     color: rgba(1, 1, 1, 0.3);
+}
+
+#nav li:nth-child(-n+3){
+    border-bottom: 1px solid rgba(1, 1, 1, 0.3);
 }
 
 
