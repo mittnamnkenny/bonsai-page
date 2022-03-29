@@ -48,6 +48,8 @@ li, a {
     padding: 30px;
 }
 
+/* Header */
+
 #header {
     grid-area: header;
     background-color: #061324;
@@ -56,27 +58,51 @@ li, a {
     align-items: center;
 }
 
+/* Nav */
+
 #nav {
     grid-area: nav;
     background-color: goldenrod;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    height: fit-content;
+    border-radius: 20px;
 }
+
+#nav a {
+    display: block;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+
+
 
 #hero {
     grid-area: hero;
     background-color: blueviolet;
+    height: 500px;
 }
 
 #about {
     grid-area: about;
     background-color: brown;
+    height: 500px;
+
 }
 
 #photos {
     grid-area: photos;
     background-color: chartreuse;
+    height: 500px;
+    
 }
 
 #footer {
     grid-area: footer;
     background-color: deepskyblue;
+    height: 500px;
+
 }
