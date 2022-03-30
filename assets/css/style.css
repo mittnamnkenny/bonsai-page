@@ -26,6 +26,13 @@ li, a {
     color: aliceblue;
 }
 
+#wave1 {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: -1;
+}
+
 /* Page Wrapper */
 
 #page {
