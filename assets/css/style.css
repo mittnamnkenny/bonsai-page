@@ -75,7 +75,6 @@ li, a {
     background: #002e4c;
     border-radius: 50%;
     padding: 0 10px;
-    
 }
 
 .logo h1 {
@@ -100,11 +99,11 @@ li, a {
     padding: 10px;
 }
 
-#nav a:hover{
+#nav a:hover {
     color: rgba(0, 0, 0, 0.3);
 }
 
-#nav li:nth-child(-n+3){
+#nav li:nth-child(-n+3) {
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
 
@@ -127,14 +126,12 @@ li, a {
     line-height: 1;
     font-weight: 300;
     padding: 30px;
-
 }
 
 .cover-text p {
     clear: both;
     float: right;
     padding: 30px;
-
 }
 
 
@@ -177,7 +174,6 @@ li, a {
 }
 
 .about p {
-    
     text-align: justify;
 }
 
@@ -258,19 +254,59 @@ li, a {
 
 #footer {
     grid-area: footer;
-    height: 600px;
+    height: fit-content;
     margin-bottom: 30px;
     border-radius: 0 0 20px 20px;
 }
 
-#footer h2 {
+#footer h3 {
     font-weight: 300;
-    border-bottom: 5px solid #0063A4;
-    width: fit-content;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 .contact {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
+}
+
+.form {
+    text-align: center;
+}
+
+input[type=text], input[type=email], textarea {
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    border: none;
+    resize: none;
+    margin: 10px 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+input[type=submit] {
+    font-size: 1em;
+    color: aliceblue;
+    background: #0077B9;
+    border: none;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: aliceblue;
 }
