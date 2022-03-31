@@ -205,11 +205,25 @@ li, a {
 
 #photos {
     grid-area: photos;
-    height: 500px;
+    height: fit-content;
     background-image: none;
     margin-top: -1px;
+}
 
-    
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo {
+    height: 500px;
+    width: 400px;
+}
+
+.photo img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 /* Footer */
