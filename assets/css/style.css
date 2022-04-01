@@ -347,3 +347,28 @@ input:focus, textarea:focus {
         padding: 0 10px;
     }
 }
+
+/* For small screens size from 600px wide and down*/
+@media screen and (max-width: 600px) {
+    .logo h1 {
+        font-size: 1.3em;
+    }
+
+    .logo h1 small {
+        display: none;
+    }
+
+    .cover-text h1 {
+        float: left;
+        font-size: 2em;
+        padding: 10px;
+    }
+
+    .circle {
+        display: none;
+    }
+
+    #wave1, #wave2, #wave3 {
+        display: none;
+    }
+}
