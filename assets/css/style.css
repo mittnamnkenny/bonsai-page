@@ -353,6 +353,15 @@ input:focus, textarea:focus {
     #nav a {
         padding: 0 10px;
     }
+
+    #about {
+        height: 650px;
+    }
+
+    .circle {
+        height: 200px;
+        width: 200px;
+    }
 }
 
 /* For small screens size from 600px wide and down*/
@@ -373,6 +382,10 @@ input:focus, textarea:focus {
         float: left;
         font-size: 2em;
         padding: 10px;
+    }
+
+    #about {
+        height: fit-content;
     }
 
     .circle {
