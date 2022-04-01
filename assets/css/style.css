@@ -226,7 +226,7 @@ li, a {
     background-size: cover;
     padding: 5px;
     border-radius: 20px;
-    margin: 30px;
+    margin: 30px 10px;
     text-align: center;
 }
 
@@ -316,8 +316,8 @@ input:focus, textarea:focus {
 
 /* Media queries */
 
-/* For medium screens size from 1000px wide and down*/
-@media screen and (max-width: 1000px) {
+/* For medium screens size from 1180px wide and down*/
+@media screen and (max-width: 1180px) {
     #page {
         width: 100%;
         grid-template-areas:
@@ -327,6 +327,10 @@ input:focus, textarea:focus {
         "about about about about about"
         "photos photos photos photos photos"
         "footer footer footer footer footer";
+    }
+
+    #header, #nav, #hero, #about, #photos, #footer {
+        padding: 10px;
     }
 
     #nav {
@@ -340,7 +344,10 @@ input:focus, textarea:focus {
 
     #nav li {
         margin: 0 auto;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    }
+
+    #nav li:nth-child(-n+3) {
+        border-bottom: 0;
     }
 
     #nav a {
@@ -351,11 +358,15 @@ input:focus, textarea:focus {
 /* For small screens size from 600px wide and down*/
 @media screen and (max-width: 600px) {
     .logo h1 {
-        font-size: 1.3em;
+        font-size: 1.5em;
     }
 
     .logo h1 small {
         display: none;
+    }
+
+    #nav li {
+        margin: 0 auto;
     }
 
     .cover-text h1 {
@@ -370,5 +381,20 @@ input:focus, textarea:focus {
 
     #wave1, #wave2, #wave3 {
         display: none;
+    }
+
+    .photo {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    #footer {
+        margin-bottom: 0;
+        border-radius: 0;
+    }
+
+    .contact {
+        display: grid;
+        grid-template-columns: 1fr;
     }
 }
