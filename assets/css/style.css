@@ -90,6 +90,7 @@ li, a {
     top: 0;
     height: fit-content;
     border-radius: 20px;
+    z-index: 2;
 }
 
 #nav a {
@@ -311,4 +312,38 @@ input:focus, textarea:focus {
 
 ::placeholder {
     color: aliceblue;
+}
+
+/* Media queries */
+
+/* For medium screens size from 1000px wide and down*/
+@media screen and (max-width: 1000px) {
+    #page {
+        width: 100%;
+        grid-template-areas:
+        "header header header header header"
+        "nav nav nav nav nav"
+        "hero hero hero hero hero"
+        "about about about about about"
+        "photos photos photos photos photos"
+        "footer footer footer footer footer";
+    }
+
+    #nav {
+        padding: 15px;
+        border-radius: 0;
+    }
+
+    #nav ul {
+        display: flex;
+    }
+
+    #nav li {
+        margin: 0 auto;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    }
+
+    #nav a {
+        padding: 0 10px;
+    }
 }
