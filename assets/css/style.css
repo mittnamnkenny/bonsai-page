@@ -354,6 +354,11 @@ input:focus, textarea:focus {
         padding: 0 10px;
     }
 
+    #hero {
+        margin-top: -41px;
+        background-attachment: local;
+    }
+
     #about {
         height: 650px;
     }
@@ -361,6 +366,12 @@ input:focus, textarea:focus {
     .circle {
         height: 200px;
         width: 200px;
+        background-attachment: local;
+    }
+
+    #footer {
+        margin-bottom: 0;
+        border-radius: 0;
     }
 }
 
@@ -368,10 +379,13 @@ input:focus, textarea:focus {
 @media screen and (max-width: 600px) {
     .logo h1 {
         font-size: 1.5em;
+        line-height: 1.2;
     }
 
     .logo h1 small {
-        display: none;
+        font-size: 0.8em;
+        margin-left: 93px;
+        display: block;
     }
 
     #nav li {
@@ -399,11 +413,6 @@ input:focus, textarea:focus {
     .photo {
         width: 100%;
         max-width: 400px;
-    }
-
-    #footer {
-        margin-bottom: 0;
-        border-radius: 0;
     }
 
     .contact {
