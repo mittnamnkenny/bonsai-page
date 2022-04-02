@@ -336,6 +336,7 @@ input:focus, textarea:focus {
     #nav {
         padding: 15px;
         border-radius: 0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.3);
     }
 
     #nav ul {
@@ -390,6 +391,10 @@ input:focus, textarea:focus {
 
     #nav li {
         margin: 0 auto;
+    }
+
+    #nav a {
+        font-size: 1.1em;
     }
 
     .cover-text h1 {
