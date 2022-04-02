@@ -401,7 +401,10 @@ input:focus, textarea:focus {
     .cover-text h1 {
         float: left;
         font-size: 2em;
-        padding: 10px;
+    }
+
+    .cover-text p {
+        float: left;
     }
 
     #about {
