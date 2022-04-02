@@ -125,7 +125,7 @@ li, a {
     background-size: cover;
 }
 
-.cover-text h1 {
+.cover-text h2 {
     background: rgba(0, 0, 0, 0.4);
     float: right;
     font-size: 3em;
@@ -399,7 +399,7 @@ input:focus, textarea:focus {
         font-size: 1.1em;
     }
 
-    .cover-text h1 {
+    .cover-text h2 {
         float: left;
         font-size: 2em;
     }
