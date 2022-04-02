@@ -395,6 +395,10 @@ input:focus, textarea:focus {
         margin: 0 auto;
     }
 
+    #nav {
+        padding: 5px;
+    }
+
     #nav a {
         font-size: 1.1em;
     }
