@@ -69,6 +69,10 @@ li, a {
     align-items: center;
 }
 
+.logo-s {
+    display: none;
+}
+
 .logo .fa-tree {
     font-size: 1.2em;
     color: #0077B9;
@@ -378,17 +382,14 @@ input:focus, textarea:focus {
 
 /* For small screens size from 600px wide and down*/
 @media screen and (max-width: 600px) {
-    .logo h1 {
-        font-size: 1.5em;
-        line-height: 1.2;
+    .logo-l {
+        display: none;
     }
-
-    .logo h1 small {
-        font-size: 0.8em;
-        margin-left: 93px;
+    
+    .logo-s {
         display: block;
     }
-
+    
     #nav li {
         margin: 0 auto;
     }
