@@ -117,7 +117,8 @@ li, a {
 #hero {
     grid-area: hero;
     height: 258px;
-    background: url('../images/bg.jpg');
+    background-color: #002E4C;
+    background-image: url('../images/bg.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: bottom; 
