@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 html {
     scroll-behavior: smooth;
@@ -16,7 +16,7 @@ body {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23061324' cx='50' cy='0' r='50'/%3E%3Cg fill='%2308172a' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23091b2f' cx='50' cy='100' r='50'/%3E%3Cg fill='%230a1e35' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%230b223b' cx='50' cy='200' r='50'/%3E%3Cg fill='%230b2541' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%230c2947' cx='50' cy='300' r='50'/%3E%3Cg fill='%230d2d4d' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%230d3153' cx='50' cy='400' r='50'/%3E%3Cg fill='%230e355a' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%230e3960' cx='50' cy='500' r='50'/%3E%3Cg fill='%230e3d67' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%230e416d' cx='50' cy='600' r='50'/%3E%3Cg fill='%230d4574' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%230d497a' cx='50' cy='700' r='50'/%3E%3Cg fill='%230c4d81' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%230a5288' cx='50' cy='800' r='50'/%3E%3Cg fill='%2308568f' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23065a96' cx='50' cy='900' r='50'/%3E%3Cg fill='%23035f9d' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%230063A4' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
     background-attachment: fixed;
     background-size: contain;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     color: aliceblue;
 }
 
@@ -118,7 +118,7 @@ li, a {
     grid-area: hero;
     height: 258px;
     background-color: #002E4C;
-    background-image: url('../images/bg.jpg');
+    background-image: url("../images/bg.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: bottom; 
@@ -158,7 +158,7 @@ li, a {
 }
 
 .circle {
-    background-image: url('../images/bg.jpg');
+    background-image: url("../images/bg.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: bottom; 
@@ -298,11 +298,11 @@ input[type=text], input[type=email], textarea {
 
 input[type=submit] {
     font-size: 1em;
-    color: aliceblue;
-    background: #0077B9;
+    color: #0077B9;
+    background: aliceblue;
     border: none;
     margin: 10px;
-    padding: 10px 20px;
+    padding: 10px 40px;
     border-radius: 20px;
     cursor: pointer;
 }
