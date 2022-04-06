@@ -94,3 +94,24 @@ The photos on this website were taken by mittnamnkenny.
 
 - A Fav icon.
 - A form submitted feature.
+
+## Design
+
+- I have used blue as main color theme for this website. Indigo blue is often used when displaying bonsai and on bonsai excebitions.
+- For text color aliceblue were chosen as this goes with the theme of the website and is easy to read.
+- Scalable Vector Graphic were used for background images with a fallback background colour if image should fail to load.
+- Three svg-waves were used to improve the overall design.
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- [Google Fonts:](https://fonts.google.com/) To import font family ’Poppins’ into the style.css file which is used on all pages.
+Added fallback font sans-serif.
+- [Font Awesome:](https://fontawesome.com/) Was used in header and contact section to add icons for aesthetic and UX purposes.
+- [SVG Backgrounds:](https://svgbackgrounds.com/) Scalable Vector Graphic used for main background and on page-wrapper. Should the background image fail there is a fallback background color set so that text will be readable and page still functions.
+- [SVG Wave Generator:](https://softr.io/tools/svg-wave-generator/) Used to generate a gradient SVG wave, used in both body and about section.
+- [Tiny PNG:](https://tinypng.com/) Compressing images to smaller sizes.
+- [Am I Responsive:](http://ami.responsivedesign.is) Checking the responsive.
+- [Git](https://git-scm.com/) Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+- [GitHub:](https://github.com/) GitHub is used to store the projects code after being pushed from Git.
