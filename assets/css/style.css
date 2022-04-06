@@ -126,7 +126,7 @@ li, a {
 }
 
 .cover-text h2 {
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.5);
     float: right;
     font-size: 3em;
     line-height: 1;
@@ -135,9 +135,11 @@ li, a {
 }
 
 .cover-text p {
+    background: rgba(0, 0, 0, 0.5);
     clear: both;
     float: right;
-    padding: 30px;
+    margin: 20px;
+    padding: 10px;
 }
 
 /* About */
