@@ -74,7 +74,7 @@ The photos on this website were taken by mittnamnkenny.
 
   - This section is valuable to the user as they will be able to view high quality photos of shohin trees.
   - Shows 4 images of different bonsai trees with size information, 2 bonus images.
-  - On large screen sizes the images are shown 2 in a row and on mobile 1.
+  - On small screen sizes / Mobile devices the images are shown 1 in a row.
 
 ![Photo Section](assets/media/photos.png)
 
