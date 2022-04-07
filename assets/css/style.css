@@ -185,7 +185,9 @@ li, a {
 }
 
 .about a {
-    text-decoration: underline #0063A4;
+    font-size: 1.1em;
+    font-weight: 700;
+    border-bottom: 1px solid #0063A4;
 }
 
 #wave2 {
