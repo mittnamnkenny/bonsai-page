@@ -159,6 +159,8 @@ I have confirmed that the colours and fonts chosen are easy to read and accessib
 - When testing different screen sizes using Chrome developer tools, I realized that the submit button need to stand out more for accessibility.
   I increased the padding of the button and changed the background colour to aliceblue.
 
+- When using Safari browser, I realized that text-decoration underline did not work at all. This was removed in favor of border-bottom on the link to bonsai empire in the about section.
+
 ## Deployment
 
 
