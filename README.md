@@ -97,7 +97,7 @@ The photos on this website were taken by mittnamnkenny.
 
 ## Design
 
-- I have used blue as main color theme for this website. Indigo blue is often used when displaying bonsai and on bonsai excebitions.
+- I have used blue as main colour theme for this website. Indigo blue is often used when displaying bonsai and on bonsai excebitions.
 - For text color aliceblue were chosen as this goes with the theme of the website and is easy to read.
 - Scalable Vector Graphic were used for background images with a fallback background colour if image should fail to load.
 - Three svg-waves were used to improve the overall design.
@@ -115,3 +115,55 @@ Added fallback font sans-serif.
 - [Am I Responsive:](http://ami.responsivedesign.is) Checking the responsive.
 - [Git](https://git-scm.com/) Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 - [GitHub:](https://github.com/) GitHub is used to store the projects code after being pushed from Git.
+
+## Testing
+
+### Browser testing
+- I have tested that this page works in the following browsers: Chrome, Safari and Firefox.
+- I have tested this page works on iOS devices (Iphone X and iPad Air).
+
+### Responsivness
+- Chrome developer tool have been used to check the responsivness.
+- I have tested that this page works on different screen sizes from iPhone 5 (320px wide) and very large screens like 5K iMac Pro (5120 x 2880 px).
+
+### Validator Testing 
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate all pages of the project to ensure there were no syntax errors in there.
+
+- W3C Markup Validator
+![HTML results](assets/media/html.png)
+
+- W3C CSS Validator
+![CSS results](assets/media/css.png)
+
+I have confirmed that the colours and fonts chosen are easy to read and accessible by running it through lighthouse in Chrome developer tools.
+
+- Lighthouse
+![Lighthouse](assets/media/lighthouse.png)
+
+### Further Testing
+
+- I have tested that the links in the header works correctly.
+- I have tested that the navigation links work and the user is directed to the correct sections of the page.
+- I have tested that the navigation links change text colour when hovering over.
+- I have tested that the external link in the about section opens in a new tab and that the address is correct.
+- I have tested that name, email and message is required to submit the form in the contact section.
+- I have tested that the email input field must contain @ symbol to submit the form in the contact section.
+- I have tested that the form submit button change text colour when hovering over.
+
+### Solved bugs
+
+- When testing on iPhone, I realized that background-attachment: fixed used on the hero image was not displaying correct.
+  Property value local was added in the media query to fix this issue.
+
+- When testing different screen sizes using Chrome developer tools, I realized that the submit button need to stand out more for accessibility.
+  I increased the padding of the button and changed the background colour to aliceblue.
+
+
+
+
+
+
+
+
+
