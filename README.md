@@ -163,7 +163,13 @@ I have confirmed that the colours and fonts chosen are easy to read and accessib
 
 ## Deployment
 
-
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - Log in to GitHub and locate the GitHub Repository.
+  - In the GitHub repository, navigate to the "Settings" tab.
+  - In Settings, choose "Pages" from the left hand menu.
+  - Under "Source", select branch "Main" and select folder "(Root)".
+  - Click Save and the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+![GitHub](assets/media/github.png)
 
 
 
