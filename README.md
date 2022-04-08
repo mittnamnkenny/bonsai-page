@@ -36,9 +36,9 @@ The photos on this website were taken by mittnamnkenny.
 #### Header
 
   - The header is featured at the top of the page.
-  - Shows the logo in the left corner with a styled Font Awesome icon (fa-tree).
+  - Shows the logo in the left corner My Bonsai Page with a styled Font Awesome icon (fa-tree).
   - When the logo is clicked on it will take the user to the top of the page.
-  - The right part contains a link to the Swedish version of the page, text Svenska.
+  - The right part contains a link to the Swedish translated version of the page, text Svenska.
 
   ![Header](assets/media/header.png)
 
@@ -57,7 +57,7 @@ The photos on this website were taken by mittnamnkenny.
   - This section includes a background image from Crespi Bonsai Museum in Italy.
   - The background uses position fixed on large screen sizes, this intend to give a nice effect when scrolling down the page.
   - A large text overlay with a Welcome to my bonsai page message.
-  - A dark background colour on the text helps with contrast issues.
+  - A dark background colour on the text will make it stand out more and easier to read.
 
 ![Hero Image](assets/media/hero.png)
 
@@ -98,7 +98,7 @@ The photos on this website were taken by mittnamnkenny.
 ## Design
 
 - I have used blue as main colour theme for this website. Indigo blue is often used when displaying bonsai and on bonsai excebitions.
-- For text color aliceblue were chosen as this goes with the theme of the website and is easy to read.
+- For text colour aliceblue were chosen as this goes with the theme of the website and is easy to read.
 - Scalable Vector Graphic were used for background images with a fallback background colour if image should fail to load.
 - Three svg-waves were used to improve the overall design.
 
