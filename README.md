@@ -119,8 +119,9 @@ Added fallback font sans-serif.
 ## Testing
 
 ### Browser testing
-- I have tested that this page works in the following browsers: Chrome, Safari and Firefox.
-- I have tested this page works on iOS devices (Iphone X and iPad Air).
+- I have tested that this page works using macOS (Macbook Air).
+- I have tested that this page works in the following browsers using macOS: Chrome, Safari and Firefox.
+- I have tested this page works on iOS devices using Safari browser (Iphone X and iPad Air).
 
 ### Responsivness
 - Chrome developer tool have been used to check the responsivness.
